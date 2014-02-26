@@ -1,0 +1,10 @@
+# sqr(a) + sqr(b) = sqr(c)
+# --> c = sqrt(sqr(a) + sqr(b))
+#
+# a + b + c = 1000
+# --> sqrt(sqr(a) + sqr(b)) = 1000 - a - b
+
+# --> sqr(a) + sqr(b) ==
+# == sqr(1000) -1000a -1000b -1000a  +sqr(a) +ab -1000b +ab +sqr(b) ==
+# == sqr(1000) +sqr(a) +sqr(b)  -2000a -2000b +2ab
+s
